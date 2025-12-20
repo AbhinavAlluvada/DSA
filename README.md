@@ -25,26 +25,6 @@ The intent is mastery through reasoning, not speedrunning or leaderboard chasing
 
 ---
 
-## Folder Structure
-
-Problems are organized by pattern, not difficulty.
-
-Array/
-Hashing/
-Two_Pointers/
-Sliding_Window/
-Stack/
-Queue/
-Linked_List/
-Trees/
-Binary_Search/
-Recursion/
-Dynamic_Programming/
-Graphs/
-
-
----
-
 ## Progress Tracker
 
 | # | Problem | Pattern | Status |
