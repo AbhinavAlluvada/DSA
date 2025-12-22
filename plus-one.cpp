@@ -29,7 +29,7 @@ public:
 };
 int main()
 {
-    vector<int> vect = {1, 2, 4};
+    vector<int> vect = {2,1, 9, 9};
     vector<int> vect2 = {1, 2, 9};
     vector<int> vect3 = {9};
 
