@@ -33,5 +33,5 @@ int main()
     {
         cout << nums[i] << " ";
     }
-    return 0;
+    return 0; 
 }
