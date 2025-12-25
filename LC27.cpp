@@ -4,13 +4,13 @@ using namespace std;
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        int k = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] != val) {
-                nums[k++] = nums[i];
+        int slptr =0;
+        for(int fsptr = 0; fsptr <nums.size();fsptr++){
+            if(nums[fsptr] != val){
+                nums[slptr++] = nums[fsptr];
             }
         }
-        return k;
+        return slptr;
     }
 };
 
@@ -19,8 +19,11 @@ int main() {
     int val = 3;
     Solution s;
     int k = s.removeElement(nums, val);
-    cout << k << endl;
     for (int i = 0; i < k; i++) {
+        cout << nums[i] << " ";
+    }
+    cout << endl;
+    for (int i = 0; i < nums.size(); i++) {
         cout << nums[i] << " ";
     }
     return 0;
