@@ -7,15 +7,17 @@ void print(const vector <int>& vect){
     cout << endl;
 }
 int main(){
-    vector <int> vect = {1,2,3};
-    vector <int> vect2 = {4,5,6};
-    int k = vect.size()-1;
-    print(vect);
-    cout << "k: "<<k<<endl;
-
-    vect[k--] = 0;
-    print(vect);
-    cout << "k: "<<k<<endl;
-
+    int n = 5;
+    int fact = 1;
+    for(int i =1;i<n;i++){
+        fact = fact * i;
+        cout << fact << endl;
+    }
+    cout << "-------------"<<endl;
+    int fact2 =1;
+    for(int i = n-1;i>=0;i--){
+        fact2 = fact2* i;
+        cout << fact2 <<endl;
+    }
     return 0;
 }
