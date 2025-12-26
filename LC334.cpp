@@ -28,4 +28,4 @@ int main(){
         cout << "Triplet exists!"<<endl;
     }
     return 0; 
-}
+} 
