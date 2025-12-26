@@ -27,5 +27,5 @@ int main(){
     if(result){
         cout << "Triplet exists!"<<endl;
     }
-    return 0;
+    return 0; 
 }
