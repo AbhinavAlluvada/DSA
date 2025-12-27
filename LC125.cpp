@@ -32,7 +32,7 @@ public:
     }
 };
 int main()
-{
+{ 
     Solution obj;
     string str = "A man, a plan, a canal: Panama";
     bool result = obj.ispalin(str);
