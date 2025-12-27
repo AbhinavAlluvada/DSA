@@ -4,7 +4,7 @@ using namespace std;
 int lc169(vector<int> vect)
 {
     int candidate = 0;
-    int count = 0;
+    int count = 0; 
     for (int i : vect)
     {
         if (count == 0)
