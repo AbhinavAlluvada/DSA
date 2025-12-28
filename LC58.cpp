@@ -4,11 +4,19 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        int i = s.size() - 1;
-        while (i >= 0 && s[i] == ' ') i--;
+        int n = s.size();
         int count = 0;
-        while (i >= 0 && s[i] != ' ') {
-            count++;
+        int i = n-1;
+        if(n==1){
+            return 1;
+        }
+        while(i>0){
+            if(isalnum(s[i])){
+                count++;
+                if(!isalnum(s[i-1])){
+                    break;
+                }
+            }
             i--;
         }
         return count;
@@ -17,7 +25,7 @@ public:
 
 int main() {
     Solution sol;
-    string s = "luffy is still joyboy";
+    string s = "a";
     cout << sol.lengthOfLastWord(s);
     return 0;
 }
