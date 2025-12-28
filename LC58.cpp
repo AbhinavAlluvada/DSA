@@ -15,7 +15,7 @@ public:
                 count++;
                 if(!isalnum(s[i-1])){
                     break;
-                }
+                } 
             }
             i--;
         }
