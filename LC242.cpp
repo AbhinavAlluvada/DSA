@@ -8,7 +8,7 @@ int main(){
         return 0;
     }
     unordered_map <char,int> cmap;
-    for(char c : s){
+    for(char c : s){ 
         cmap[c]++;
     }
     unordered_map <char,int> dmap;
