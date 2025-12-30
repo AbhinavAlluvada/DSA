@@ -20,7 +20,7 @@ class Solution{
 };
 int main(){
     Solution obj;
-    string str = " ";
+    string str = "";
     cout << obj.longestsubstr(str)<<endl;
     return 0;
 }
