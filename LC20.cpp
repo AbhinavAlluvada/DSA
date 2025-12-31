@@ -24,7 +24,7 @@ class Solution{
 };
 int main(){
     Solution obj;
-    string str = "]}";
+    string str = "]}()";
     if(obj.parenthesis(str)){
         cout << "Perfecto!"<<endl;
     }
