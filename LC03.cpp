@@ -11,10 +11,11 @@ public:
         int left = 0;
 
         while (left < n) {
-            if (right < n && vect[s[right]] == 0) {
+            if(right < n && vect[s[right]] == 0){
                 vect[s[right++]]++;
                 maxlen = max(maxlen, right - left);
-            } else {
+            }
+            else{
                 vect[s[left++]]--;
             }
         }
