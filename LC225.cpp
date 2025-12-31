@@ -37,6 +37,10 @@ int main() {
     st.push(2);
     st.push(3);
     cout << st.top() << endl;
+    st.push(3);
+    st.push(3);
+    st.push(3);
+    st.push(3);
     cout << st.pop() << endl;
     cout << st.top() << endl;
     cout << st.empty() << endl;
