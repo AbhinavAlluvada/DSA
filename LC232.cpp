@@ -32,7 +32,7 @@ public:
 };
 
 int main() {
-    MyStack st;
+    MyStack st; 
     st.push(1);
     st.push(2);
     st.push(3);
