@@ -43,5 +43,5 @@ int main() {
     cout << st.pop() << endl;
     cout << st.top() << endl;
     cout << st.empty() << endl;
-    return 0;
+    return 0; 
 }
