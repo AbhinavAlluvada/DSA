@@ -30,7 +30,7 @@ public:
         return q.empty();
     }
 };
-
+ 
 int main() {
     MyStack st; 
     st.push(1);  
