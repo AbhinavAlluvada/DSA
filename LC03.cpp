@@ -15,7 +15,7 @@ public:
                 vect[s[right++]]++;
                 maxlen = max(maxlen, right - left);
             } 
-            else{ 
+            else{  
                 vect[s[left++]]--;
             }
         }
