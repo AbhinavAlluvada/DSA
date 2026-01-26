@@ -13,7 +13,7 @@ public:
         while (left < n) {
             if(right < n && vect[s[right]] == 0){
                 vect[s[right++]]++;
-                maxlen = max(maxlen, right - left);
+                 maxlen = max(maxlen, right - left);
             } 
             else{  
                 vect[s[left++]]--;
